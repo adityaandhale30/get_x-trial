@@ -19,7 +19,6 @@ class Other2 extends StatelessWidget {
             width: 200,
             color: Color.fromRGBO(253, 88, 203, 1),
             alignment: Alignment.center,
-            
             child: Obx(() => Text("${c.count}")),
           ),
         ),
